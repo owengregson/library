@@ -213,7 +213,7 @@ function init(fieldName) {
     interactive.addEventListener('click', onCanvasClick);
 
 	image = new Image();
-	image.src = `resources/img/${fieldName}.jpg`;
+	image.src = `https://uploads-ssl.webflow.com/645accb94a84d4211340007c/65a32f800d444dfb5d1c8924_season.jpg`;
 	image.onload = function() {
 		ctxBackground.drawImage(image, 0, 0, width, height);
 		update(false);
